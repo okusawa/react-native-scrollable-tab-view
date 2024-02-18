@@ -7,7 +7,7 @@ const Button = require("./Button");
 
 const DefaultTabBar = createReactClass({
   propTypes: {
-    goToPage: PropTypes.func,
+    goToPage: PropTypes.func,d
     activeTab: PropTypes.number,
     tabs: PropTypes.array,
     backgroundColor: PropTypes.string,
