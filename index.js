@@ -3,7 +3,7 @@ const { Component } = React;
 import { ViewPropTypes } from "deprecated-react-native-prop-types";
 const createReactClass = require("create-react-class");
 const PropTypes = require("prop-types");
-const {
+import {
   Dimensions,
   View,
   Animated,
@@ -11,7 +11,7 @@ const {
   Platform,
   StyleSheet,
   InteractionManager,
-} = ReactNative;
+} from "react-native";
 
 const TimerMixin = require("react-timer-mixin");
 import PagerView from "react-native-pager-view";
